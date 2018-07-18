@@ -6,6 +6,10 @@
   background-color: #fff;
 }
 
+.jumbotron-heading {
+  font-family: 'Quicksand', sans-serif;
+}
+
 #mainText {
   margin: 20px auto 30px;
 }
