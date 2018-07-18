@@ -1,0 +1,21 @@
+
+.jumbotron {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  background-color: #fff;
+}
+
+#mainText {
+  margin: 20px auto 30px;
+}
+
+.row {
+  margin: 20px auto 40px;
+}
+
+.footer {
+  font-size: 14px;
+  text-align: center;
+  margin: 60px auto 12px;
+}
