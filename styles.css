@@ -23,3 +23,9 @@
   text-align: center;
   margin: 60px auto 12px;
 }
+
+@media (max-width: 600px) {
+  .jumbotron-heading {
+    font-size: 3.5rem;
+  }
+}
