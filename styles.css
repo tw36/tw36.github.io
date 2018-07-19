@@ -18,6 +18,10 @@
   margin: 20px auto 40px;
 }
 
+.modal-footer {
+  justify-content: flex-start;
+}
+
 .footer {
   font-size: 14px;
   text-align: center;
