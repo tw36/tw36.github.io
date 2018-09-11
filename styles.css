@@ -18,6 +18,10 @@
   margin: 20px auto 40px;
 }
 
+.card-img-top {
+	cursor: pointer;
+}
+
 .modal-footer {
   justify-content: flex-start;
 }
