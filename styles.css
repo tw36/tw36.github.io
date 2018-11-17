@@ -15,7 +15,7 @@
 }
 
 #mainText {
-  margin: 20px auto 30px;
+  margin: 20px auto 30px auto;
 }
 
 .row {
@@ -37,6 +37,9 @@
 }
 
 @media (max-width: 600px) {
+  .jumbotron {
+    width: 90%;
+  }
   .jumbotron-heading {
     font-size: 3.5rem;
   }
