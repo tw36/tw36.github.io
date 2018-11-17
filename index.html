@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-
 <html>
   <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="author" content="name">
     <meta name="description" content="description">
@@ -29,33 +28,33 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="card">
-            <img class="card-img-top" src="images/wfl1.png" alt="Card image" width="300" height="270" data-toggle="modal" data-target="#modal1">
+            <img class="card-img-top" src="images/wfl1.png" alt="Card image" width="300" height="270" data-toggle="modal" data-target="#content-modal" onclick="updateModal(1)">
             <div class="card-body">
               <h4 class="card-title">What's For Lunch?</h4>
               <p class="card-text">Web app that allows users to subscribe to daily email/text notifications of their school's lunch menu</p>
-              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#modal1">View Project</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#content-modal" onclick="updateModal(1)">View Project</button>
             </div>
           </div>
         </div>
 
         <div class="col-sm-4">
           <div class="card">
-            <img class="card-img-top" src="images/urp1.png" alt="Card image" width="300" height="270" data-toggle="modal" data-target="#modal2">
+            <img class="card-img-top" src="images/urp1.png" alt="Card image" width="300" height="270" data-toggle="modal" data-target="#content-modal" onclick="updateModal(2)">
             <div class="card-body">
               <h4 class="card-title">Unredd Posts</h4>
               <p class="card-text">Users can sign up to get the latest posts from their favorite subreddits sent to their inbox</p>
-              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#modal2">View Project</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#content-modal" onclick="updateModal(2)">View Project</button>
             </div>
           </div>
         </div>
         
         <div class="col-sm-4">
           <div class="card">
-            <img class="card-img-top" src="images/bot1.png" alt="Card image" width="300" height="270" data-toggle="modal" data-target="#modal3">
+            <img class="card-img-top" src="images/bot1.png" alt="Card image" width="300" height="270" data-toggle="modal" data-target="#content-modal" onclick="updateModal(3)">
             <div class="card-body">
               <h4 class="card-title">LMGTFY Discord Bot</h4>
               <p class="card-text">A discord bot that automatically googles any question posed in the server's chatroom</p>
-              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#modal3">View Project</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#content-modal" onclick="updateModal(3)">View Project</button>
             </div>
           </div>
         </div>
@@ -64,201 +63,75 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="card">
-            <img class="card-img-top" src="images/sg1.png" alt="Card image" width="300" height="270" data-toggle="modal" data-target="#modal4">
+            <img class="card-img-top" src="images/sg1.png" alt="Card image" width="300" height="270" data-toggle="modal" data-target="#content-modal" onclick="updateModal(4)">
             <div class="card-body">
               <h4 class="card-title">Spooky Ghost</h4>
               <p class="card-text">Browser based Flappy Bird game clone. Based on Ellisonleao's Clumsy Bird</p>
-              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#modal4">View Project</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#content-modal" onclick="updateModal(4)">View Project</button>
             </div>
           </div>
         </div>
   
         <div class="col-sm-4">
           <div class="card">
-            <img class="card-img-top" src="images/placeholder.png" alt="Card image">
+            <img class="card-img-top" src="images/placeholder.png" alt="Card image" data-toggle="modal" data-target="#content-modal" onclick="updateModal(0)">
             <div class="card-body">
               <h4 class="card-title">Placeholder</h4>
               <p class="card-text">Placeholder description to be changed when more projects are added</p>
-              <button type="button" class="btn btn-outline-info">View Project</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#content-modal" onclick="updateModal(0)">View Project</button>
             </div>
           </div>
         </div>
           
         <div class="col-sm-4">
           <div class="card">
-            <img class="card-img-top" src="images/placeholder.png" alt="Card image">
+            <img class="card-img-top" src="images/placeholder.png" alt="Card image" data-toggle="modal" data-target="#content-modal" onclick="updateModal(0)">
             <div class="card-body">
               <h4 class="card-title">Placeholder</h4>
               <p class="card-text">Placeholder description to be changed when more projects are added</p>
-              <button type="button" class="btn btn-outline-info">View Project</button>
+              <button type="button" class="btn btn-outline-info" data-toggle="modal" data-target="#content-modal" onclick="updateModal(0)">View Project</button>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="modal fade" id="modal1">
+      <div class="modal fade" id="content-modal">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
-              <h4 class="modal-title">Modal1 Heading</h4>
+              <h4 class="modal-title"></h4>
               <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body">
-              <div id="carousel1" class="carousel slide" data-ride="carousel" data-interval="4000">
+              <div id="content-carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
                 <ul class="carousel-indicators">
-                  <li data-target="#carousel1" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel1" data-slide-to="1"></li>
-                  <li data-target="#carousel1" data-slide-to="2"></li>
+                  <li data-target="#content-carousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#content-carousel" data-slide-to="1"></li>
+                  <li data-target="#content-carousel" data-slide-to="2"></li>
                 </ul>
                 
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
+                    <img id="car-img1" class="img-fluid" src="images/placeholder2.png" alt="Placeholder" width="800" height="400">
                   </div>
                   <div class="carousel-item">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
+                    <img id="car-img2" class="img-fluid" src="images/placeholder2.png" alt="Placeholder" width="800" height="400">
                   </div>
                   <div class="carousel-item">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
+                    <img id="car-img3" class="img-fluid" src="images/placeholder2.png" alt="Placeholder" width="800" height="400">
                   </div>
                 </div>
                 
-                <a class="carousel-control-prev" href="#carousel1" data-slide="prev">
+                <a class="carousel-control-prev" href="#content-carousel" data-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
                 </a>
-                <a class="carousel-control-next" href="#carousel1" data-slide="next">
+                <a class="carousel-control-next" href="#content-carousel" data-slide="next">
                   <span class="carousel-control-next-icon"></span>
                 </a>
               </div>
             </div>
             <div class="modal-footer">
-              <span>Here's an example of a sentence that's used just to test the layout of this site and display something in a modal to the user.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="modal fade" id="modal2">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Modal2 Heading</h4>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-              <div id="carousel2" class="carousel slide" data-ride="carousel" data-interval="4000">
-                <ul class="carousel-indicators">
-                  <li data-target="#carousel2" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel2" data-slide-to="1"></li>
-                  <li data-target="#carousel2" data-slide-to="2"></li>
-                </ul>
-                
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
-                  </div>
-                </div>
-                
-                <a class="carousel-control-prev" href="#carousel2" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#carousel2" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </a>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <span>Here's an example of a sentence that's used just to test the layout of this site and display something in a modal to the user.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="modal fade" id="modal3">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Modal3 Heading</h4>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-              <div id="carousel3" class="carousel slide" data-ride="carousel" data-interval="4000">
-                <ul class="carousel-indicators">
-                  <li data-target="#carousel3" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel3" data-slide-to="1"></li>
-                  <li data-target="#carousel3" data-slide-to="2"></li>
-                </ul>
-                
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
-                  </div>
-                </div>
-                
-                <a class="carousel-control-prev" href="#carousel3" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#carousel3" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </a>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <span>Here's an example of a sentence that's used just to test the layout of this site and display something in a modal to the user.</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="modal fade" id="modal4">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Modal4 Heading</h4>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-            </div>
-            <div class="modal-body">
-              <div id="carousel4" class="carousel slide" data-ride="carousel" data-interval="4000">
-                <ul class="carousel-indicators">
-                  <li data-target="#carousel4" data-slide-to="0" class="active"></li>
-                  <li data-target="#carousel4" data-slide-to="1"></li>
-                  <li data-target="#carousel4" data-slide-to="2"></li>
-                </ul>
-                
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
-                  </div>
-                  <div class="carousel-item">
-                    <img class="img-fluid" src="images/placeholder2.png" alt="Los Angeles" width="800" height="400">
-                  </div>
-                </div>
-                
-                <a class="carousel-control-prev" href="#carousel4" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#carousel4" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-                </a>
-              </div>
-            </div>
-            <div class="modal-footer">
-              <span>Here's an example of a sentence that's used just to test the layout of this site and display something in a modal to the user.</span>
+              <span></span>
             </div>
           </div>
         </div>
@@ -272,5 +145,6 @@
 
     <script src="jquery/jquery-3.3.1.min.js"></script>
     <script src="bootstrap4/bootstrap.min.js"></script>
+    <script src="./scripts.js"></script>
   </body>
 </html>
