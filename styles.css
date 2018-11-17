@@ -10,6 +10,10 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+.container {
+  max-width: 1300px;
+}
+
 #mainText {
   margin: 20px auto 30px;
 }

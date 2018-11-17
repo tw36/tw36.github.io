@@ -15,6 +15,10 @@ function updateModal(colNum) {
     $('.modal-title').text('Spooky Ghost');
     $('.modal-footer span').text('Beep');
   }
+  else if (colNum == 5) {
+    $('.modal-title').text('Indeed Sponsored Jobs Blocker');
+    $('.modal-footer span').text('Beep');
+  }
   else {
     $('.modal-title').text('Placeholder');
     $('.modal-footer span').text('Placeholder Two');
