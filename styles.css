@@ -1,49 +1,22 @@
-
-.jumbotron {
-  text-align: center;
-  margin: 0 auto;
-  width: 60%;
-  background-color: #fff;
+.main-header {
+  font-size: 76px;
 }
 
-.jumbotron-heading {
-  font-family: 'Quicksand', sans-serif;
+.sub-header {
+  font-size: 20px;
 }
 
-.container {
-  max-width: 1300px;
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-#mainText {
-  margin: 20px auto 30px auto;
-}
-
-.row {
-  margin: 20px auto 40px;
-}
-
-.card-img-top {
-	cursor: pointer;
-}
-
-.modal-footer {
-  justify-content: flex-start;
-}
-
-.footer {
-  font-size: 14px;
-  text-align: center;
-  margin: 60px auto 12px;
-}
-
-@media (max-width: 600px) {
-  .jumbotron {
-    width: 90%;
-  }
-  .jumbotron-heading {
-    font-size: 4.25rem;
-  }
-  #mainText {
-    font-size: 1.1rem;
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
 }
